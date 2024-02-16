@@ -1,0 +1,802 @@
+        * {
+            margin: 0%;
+            padding: 0%;
+            background-color: #342628;
+        }
+    /*header*/
+        #img {
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            background-image: url(web\ banner.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #img h1 {
+            background-color: #ffffff00;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30%;
+            color: #3f3f3d;
+            font-size: 60px;
+        }
+
+    /*nav*/
+
+        .header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;   
+        }
+
+        .logo2 {
+            width: 100px;
+            height: 100px;
+        }
+
+         .navbar a {
+            position: relative;
+            font-size: 18px;
+            color: #fff;
+            font-weight: 500;
+            text-decoration: none;
+            margin: 30px;
+            font-family: Candara;
+         }
+
+         .navbar a::before {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 0%;
+            height: 2px;
+            background: #fff;
+            transition: .3s;
+         }
+
+         .navbar a:hover::before {
+            width: 100%;
+         }
+
+      
+    /*about*/
+        #about{
+            margin-top: 3%;
+            margin-left: 3%;
+            margin-bottom: 3%;
+            font-family: Candara;
+            color: #feaa00;
+
+        }
+    /*appetizers*/
+
+        #T-1 {
+            font-family:Trebuchet MS;
+            font-size: 20px;
+            margin-left: 2%;
+            color: #feaa00;
+        }
+
+        #Appetizers {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 150px;
+            margin-top: 3%;
+
+        }
+
+        .shang {
+            width: 150px;
+            height: 150px;
+            transition: transform .2s;
+        }
+
+        .siomai {
+            width: 150px;
+            height: 150px;
+            transition: transform .2s;
+        }
+
+        .cal {
+            width: 150px;
+            height: 150px;
+            transition: transform .2s;
+        }
+
+        .shang:hover {
+            transform: scale(1.5); 
+        }
+
+        .siomai:hover {
+            transform: scale(1.5); 
+        }
+
+        .cal:hover {
+            transform: scale(1.5); 
+        }
+  
+        .cap {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 150px;
+            margin-top: .5%;
+            text-align: center;
+            color: white;
+        }
+
+        .Sha {
+            font-family:Trebuchet MS;
+            font-size: 15px;
+            
+        }
+
+        .Sio {
+            font-family:Trebuchet MS;
+            font-size: 15px;
+        }
+
+        .Cal {
+            font-family:Trebuchet MS;
+            font-size: 15px;
+        }
+
+        #Shanghai {
+            color: white;
+        }
+       
+        #Shanghai h3 {
+            font-family: Candara;
+            margin-top: 5%;
+            margin-left: 2%;
+            color: #feaa00;
+        }
+
+        .L-ing {
+            font-family: Candara;
+            font-style: italic;
+            margin-top: 3%;
+            margin-left: 2%;  
+        }
+
+        .LS-ing {
+            font-family: Candara;
+            margin-left: 3%; 
+        }
+
+        .L-direct {
+            font-family: Candara;
+            font-style: italic;
+            margin-top: 1%;
+            margin-left: 2%;   
+        }
+
+        .LS-direct {
+            font-family: Candara;
+            margin-left: 3%;
+        }
+
+        #Siomai {
+            color: white;
+        }
+
+        #Siomai h3 {
+            font-family: Candara;
+            margin-top: 5%;
+            margin-left: 2%;
+            color: #feaa00;
+        }
+
+        .p-ings {
+            font-family: Candara;
+            font-style: italic;
+            margin-top: 3%;
+            margin-left: 2%;  
+        }
+
+        .PS-ing {
+            font-family: Candara;
+            margin-left: 3%; 
+        }
+
+        .p-direct {
+            font-family: Candara;
+            font-style: italic;
+            margin-top: 1%;
+            margin-left: 2%; 
+        }
+
+        .ps-direct {
+            font-family: Candara;
+            margin-left: 3%; 
+        }
+
+        #Calamari {
+            color: #fff;
+        }
+
+        #Calamari h3 {
+            font-family: Candara;
+            margin-top: 5%;
+            margin-left: 2%;
+            color:#feaa00;
+        }
+
+        .Cal-1 {
+            font-family: Candara;
+            font-style: italic;
+            margin-top: 3%;
+            margin-left: 2%; 
+        }
+
+        .Cala {
+            font-family: Candara;
+            margin-left: 3%; 
+        }
+
+        .Cal-2 {
+            font-family: Candara;
+            font-style: italic;
+            margin-top: 1%;
+            margin-left: 2%; 
+        }
+
+        .Calam {
+            font-family: Candara;
+            margin-left: 3%; 
+        }
+
+    /*dishes*/
+        #T-2 {
+            font-family:Trebuchet MS;
+            font-size: 20px;
+            margin-top: 5%;
+            margin-left: 2%;
+            color: #feaa00;
+        }
+
+        #MainC {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 150px;
+            margin-top: 3%;
+
+        }
+
+        .sinigang {
+            width: 150px;
+            height: 150px;
+            transition: transform .2s;
+        }
+
+        .bistek {
+            width: 150px;
+            height: 150px;
+            transition: transform .2s;
+        }
+
+        .squid {
+            width: 150px;
+            height: 150px;
+            transition: transform .2s;
+        }
+
+        .sinigang:hover {
+            transform: scale(1.5); 
+        }
+
+        .bistek:hover {
+            transform: scale(1.5); 
+        }
+
+        .squid:hover {
+            transform: scale(1.5); 
+        }
+  
+        .cap-2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 150px;
+            margin-top: .5%;
+            text-align: center;
+            color: #fff;
+        }
+
+        .sin {
+            font-family:Trebuchet MS;
+            font-size: 15px;
+        }
+
+        .bis {
+            font-family:Trebuchet MS;
+            font-size: 15px;
+        }
+
+        .squi {
+            font-family:Trebuchet MS;
+            font-size: 15px;
+        }
+
+        #psinigang {
+            color:#fff;
+
+        }
+        #psinigang h3 {
+            font-family: Candara;
+            margin-top: 5%;
+            margin-left: 2%;
+            color: #feaa00;
+        }
+
+        .s-ing {
+            font-family: Candara;
+            font-style: italic;
+            margin-top: 3%;
+            margin-left: 2%;
+        }
+
+        .s-ings {
+            font-family: Candara;
+            margin-left: 3%; 
+        }
+
+        .s-dir {
+            font-family: Candara;
+            font-style: italic;
+            margin-top: 1%;
+            margin-left: 2%;
+        }
+        
+        .s-dire {
+            font-family: Candara;
+            margin-left: 3%; 
+        }
+        
+        #fbistek {
+            color:#fff;
+        }
+        #fbistek h3 {
+            font-family: Candara;
+            margin-top: 5%;
+            margin-left: 2%;
+            color: #feaa00;
+        }
+
+        .bis-ing {
+            font-family: Candara;
+            font-style: italic;
+            margin-top: 3%;
+            margin-left: 2%;
+        }
+
+        .b-ings{
+            font-family: Candara;
+            margin-left: 3%; 
+        }
+
+        .b-dir{
+            font-family: Candara;
+            font-style: italic;
+            margin-top: 1%;
+            margin-left: 2%;
+        }
+
+        .fb-dir {
+            font-family: Candara;
+            margin-left: 3%; 
+        }
+
+        #asquid {
+            color: #fff;
+        }
+        #asquid h3 {
+            font-family: Candara;
+            margin-top: 5%;
+            margin-left: 2%; 
+            color: #feaa00;
+        }
+
+        .sq-ing {
+            font-family: Candara;
+            font-style: italic;
+            margin-top: 3%;
+            margin-left: 2%;
+        }
+
+        .sq-ings {
+            font-family: Candara;
+            margin-left: 3%; 
+        }
+
+        .sq-dir{
+            font-family: Candara;
+            font-style: italic;
+            margin-top: 1%;
+            margin-left: 2%;
+        }
+
+        .sq-dire {
+            font-family: Candara;
+            margin-left: 3%; 
+        }
+    
+    /*desserts*/
+
+    #T-3 {
+        font-family:Trebuchet MS;
+        font-size: 20px;
+        margin-top: 5%;
+        margin-left: 2%;
+        color: #feaa00;
+    }
+
+    #Desserts {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 150px;
+        margin-top: 3%;
+
+    }
+
+    .cap-3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 150px;
+        margin-top: .5%;
+        text-align: center;
+        color: #fff;
+    }
+
+    .hal {
+        font-family:Trebuchet MS;
+        font-size: 15px;
+    }
+
+    .buk {
+        font-family:Trebuchet MS;
+        font-size: 15px;
+    }
+
+    .ban {
+        font-family:Trebuchet MS;
+        font-size: 15px;
+    }
+
+    
+
+    .halo-halo {
+        width: 150px;
+        height: 150px;
+        transition: transform .2s;
+    }
+
+    .buko {
+        width: 150px;
+        height: 150px;
+        transition: transform .2s;
+    }
+
+    .banana {
+        width: 150px;
+        height: 150px;
+        transition: transform .2s;
+    }
+
+    .halo-halo:hover {
+        transform: scale(1.5); 
+    }
+
+    .buko:hover {
+        transform: scale(1.5); 
+    }
+
+    .banana:hover {
+        transform: scale(1.5); 
+    }
+
+    #halo {
+        color: #fff;
+    }
+    #halo h3 {
+        font-family: Candara;
+        margin-top: 5%;
+        margin-left: 2%;
+        color: #feaa00;
+    }
+
+    .h-ing{
+        font-family: Candara;
+        font-style: italic;
+        margin-top: 3%;
+        margin-left: 2%;
+    }
+
+    .h-ings{
+        font-family: Candara;
+        margin-left: 3%;    
+    }
+
+    .h-dir{
+        font-family: Candara;
+        font-style: italic;
+        margin-top: 1%;
+        margin-left: 2%;
+    }
+
+    .h-dire{
+        font-family: Candara;
+        margin-left: 3%; 
+    }
+    #salad{
+        color: #fff;
+    }
+    #salad h3 {
+        font-family: Candara;
+        margin-top: 5%;
+        margin-left: 2%;
+        color: #feaa00;
+    }
+
+    .buko-ing {
+        font-family: Candara;
+        font-style: italic;
+        margin-top: 3%;
+        margin-left: 2%;
+    }
+
+    .buko-ings {
+        font-family: Candara;
+        margin-left: 3%;  
+    }
+
+    .buko-dir {
+        font-family: Candara;
+        font-style: italic;
+        margin-top: 1%;
+        margin-left: 2%;
+    }
+
+    .buko-dire {
+        font-family: Candara;
+        margin-left: 3%; 
+    }
+    #saging {
+        color:#fff;
+    }
+    #saging h3 {
+        font-family: Candara;
+        margin-top: 5%;
+        margin-left: 2%;
+        color: #feaa00;
+    }
+
+    .ban-ing{
+        font-family: Candara;
+        font-style: italic;
+        margin-top: 3%;
+        margin-left: 2%;
+    }
+
+    .ban-ings{
+        font-family: Candara;
+        margin-left: 3%; 
+    }
+
+    .ban-dir{
+        font-family: Candara;
+        font-style: italic;
+        margin-top: 1%;
+        margin-left: 2%;
+    }
+
+    .ban-dire{
+        font-family: Candara;
+        margin-left: 3%; 
+    }
+
+    /*drinks*/
+
+    #T-4 {
+        font-family:Trebuchet MS;
+        font-size: 20px;
+        margin-top: 5%;
+        margin-left: 2%;
+        color: #feaa00;
+    }
+
+    #Drinks {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 150px;
+        margin-top: 3%;
+
+    }
+
+    .cap-4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 150px;
+        margin-top: .5%;
+        text-align: center;
+        color: #fff;
+    }
+
+    .sha {
+        font-family:Trebuchet MS;
+        font-size: 15px;
+    }
+
+    .isk {
+        font-family:Trebuchet MS;
+        font-size: 15px;
+    }
+
+    .sag {
+        font-family:Trebuchet MS;
+        font-size: 15px;
+    }
+
+    
+
+    .bshake {
+        width: 150px;
+        height: 150px;
+        transition: transform .2s;
+    }
+
+    .iskram {
+        width: 150px;
+        height: 150px;
+        transition: transform .2s;
+    }
+
+    .sago {
+        width: 150px;
+        height: 150px;
+        transition: transform .2s;
+    }
+
+    .bshake:hover {
+        transform: scale(1.5); 
+    }
+
+    .iskram:hover {
+        transform: scale(1.5); 
+    }
+
+    .sago:hover {
+        transform: scale(1.5); 
+    }
+
+    #shake {
+        color: white;
+    }
+    #shake h3 {
+        font-family: Candara;
+        margin-top: 5%;
+        margin-left: 2%;
+        color: #feaa00;
+    }
+
+    .buk-ing{
+        font-family: Candara;
+        font-style: italic;
+        margin-top: 3%;
+        margin-left: 2%;
+    }
+
+    .buk-ings{
+        font-family: Candara;
+        margin-left: 3%; 
+    }
+
+    .buk-dir{
+        font-family: Candara;
+        font-style: italic;
+        margin-top: 1%;
+        margin-left: 2%;
+    }
+
+    .buk-dire{
+        font-family: Candara;
+        margin-left: 3%; 
+    }
+    #iskrambol {
+        color: #fff;
+    }
+    #iskrambol h3 {
+        font-family: Candara;
+        margin-top: 5%;
+        margin-left: 2%;
+        color: #feaa00;
+    }
+
+    .ice-ing {
+        font-family: Candara;
+        font-style: italic;
+        margin-top: 3%;
+        margin-left: 2%;
+    }
+
+    .ice-t {
+        font-family: Candara;
+        margin-left: 2%;
+    }
+
+    .ice-ing1{
+        font-family: Candara;
+        margin-left: 3%; 
+    }
+
+    .ice-t2 {
+        font-family: Candara;
+        margin-left: 2%;
+    }
+
+    .ice-ing2{
+        font-family: Candara;
+        margin-left: 3%; 
+    }
+
+    .ice-dir{
+        font-family: Candara;
+        font-style: italic;
+        margin-top: 1%;
+        margin-left: 2%;
+    }
+
+    .ice-dire{
+        font-family: Candara;
+        margin-left: 3%; 
+    }
+    #gulaman{
+        color: #fff;
+    }
+    #gulaman h3 {
+        font-family: Candara;
+        margin-top: 5%;
+        margin-left: 2%;
+        color: #feaa00;
+    }
+
+    .sago-ing{
+        font-family: Candara;
+        font-style: italic;
+        margin-top: 3%;
+        margin-left: 2%;
+    }
+
+    .sago-ings{
+        font-family: Candara;
+        margin-left: 3%; 
+    }
+
+    .sago-dir{
+        font-family: Candara;
+        font-style: italic;
+        margin-top: 1%;
+        margin-left: 2%;
+    }
+
+    .sago-dire{
+        font-family: Candara;
+        margin-left: 3%; 
+    }
+
